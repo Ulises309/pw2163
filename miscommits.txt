@@ -1,0 +1,11 @@
+commit 7a3ca5533cc80b88b10cddca7dbc1c1d1f90cd24
+Author: ulises309 <leobardo.ulises309@gmail.com>
+Date:   Fri Sep 2 11:31:09 2016 -0600
+
+    Cambio en mi readme.txt
+
+commit 0708f410a0d2f2ee214533130b39a8a3eb03d7f8
+Author: ulises309 <leobardo.ulises309@gmail.com>
+Date:   Fri Sep 2 11:26:16 2016 -0600
+
+    commit inicial
