@@ -16,14 +16,26 @@ header
 	background: blue; /*Fondo*/
 	color: white; /*Letras*/
 	text-align: center; /*Alineacion de texto*/
+	padding: 0px 0px 10px 0px;
 }
 
 header nav ul li
 {
 	/*border: 1px solid yellow;*/
-	background: white;
+	background: white; /*Color de fondo*/
 	display: inline-block; /*Desplegado que rompe el modelo de caja*/
-	color: tomato;
+	color: tomato; /*Color de texto*/
 	border-radius: 5px;
+	box-shadow: 2px 2px;
+	width: 80px; /*Ancho del boton*/
+	/*padding: (global)|(vertical horizontal)|(arriba derecha abajo izquierda);*/
+	padding: 5px 10px; /*Agrando los botones*/
+	/*margin: (global)|(vertical horizontal)|(arriba derecha abajo izquierda);*/
+	margin: 0px 10px; /*Separo las cajas*/
+}
 
+header nav ul li:hover
+{
+	background: black;
+	color: white;
 }
