@@ -8,6 +8,7 @@ body /*selector - etiqueta*/
 	max-width: 1024px;
 	border:1px solid blue;
 	border-radius: 5px;
+	margin: 0 auto;
 }
 
 header
@@ -17,6 +18,13 @@ header
 	color: white; /*Letras*/
 	text-align: center; /*Alineacion de texto*/
 	padding: 0px 0px 10px 0px;
+}
+
+header img
+{
+	width: 100px;
+	float:right;
+	margin: -50px 30px 50px -30px;
 }
 
 header nav ul li
@@ -39,3 +47,4 @@ header nav ul li:hover
 	background: black;
 	color: white;
 }
+
