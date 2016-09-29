@@ -8,7 +8,8 @@ body /*selector - etiqueta*/
 	max-width: 1024px;
 	border:1px solid blue;
 	border-radius: 5px;
-	margin: 0 auto;
+	margin: 0px auto;
+	font-size: 16px;
 }
 
 header
@@ -40,6 +41,7 @@ header nav ul li
 	padding: 5px 10px; /*Agrando los botones*/
 	/*margin: (global)|(vertical horizontal)|(arriba derecha abajo izquierda);*/
 	margin: 0px 10px; /*Separo las cajas*/
+	vertical-align: top;
 }
 
 header nav ul li:hover
@@ -48,3 +50,22 @@ header nav ul li:hover
 	color: white;
 }
 
+main section article
+{
+	/*border:1px solid red;*/
+	display: inline-block;
+	width: 24%;
+	vertical-align: top;
+}
+
+main section
+{
+	margin:15px 0px 0px 0px;
+}
+
+footer
+{
+	border: 1px solid blue;
+	text-align: center;
+	font-size: 0.5em;
+}
