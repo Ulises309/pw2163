@@ -1,40 +1,101 @@
 body
 {
 	font-size: 16px; /*1em*/
-	max-width: 1078px; /*Por decision de la empresa*/
+	margin: 0 auto;
+	max-width: 1078px; /*desicion de la empresa*/
 	min-width: 1078px;
-	margin: 0px auto;
-	border:1px solid blue;
 }
-
 header input
 {
-	float:right;
-	margin-top: 20px;
+	float: right;
 	margin-right: -200px;
-	position: relative;
+	margin-top: 13px;
+	position: relative; /* esto te manda una imagen de atras hacia delante*/
 }
-
-header nav ul li
+header nav ul li 
 {
-	color:gray;
+	border-bottom: 1px solid gray;
+	color: gray;
 	display: inline-block;
 	font-size: 1.8em;
-	margin: 0px 15px;
-	border-bottom: 1px solid gray;
-	border-spacing: 5px;
-	padding: 0px auto;
+	margin-right: 8px;
 }
-
-#granthams
+header nav
+{
+	margin-left: 220px;
+}
+#bgoffer
+{
+	position: relative;
+	top: -410px;
+	left: -30px;
+}
+#granthams 
 {
 	margin-top: 20px;
 	margin-left: 25px;
 }
-
 #paint
 {
 	float: right;
-	margin-top: 20px;
+	margin-top: 15px;
 }
-
+#primeraseccion
+{
+	margin-top: 70px;
+	height: 318px;
+}
+#primeraseccion article
+{
+	display: inline-block;
+	margin-left: 25px;
+	vertical-align: top;
+}
+#secc01art01
+{
+	width: 60%;
+}
+#secc01art02
+{
+	width: 30%;
+}
+#segundaseccion article
+{
+	text-align: right;
+	padding-right: 160px;
+}
+#terceraseccion article
+{
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+}
+.colorazul
+{
+	font-size: 1.5em;
+	color: #3E9ED6;
+}
+.colorrosa
+{
+	font-size: 1.5em;
+	color: #FF0099;
+}
+.colorverde
+{
+	font-size: 1.5em;
+	color: #A6DE47;
+}
+.numerotelefono
+{
+	text-align: right;
+	color:#FF0099;
+	font-size: 2em;
+	font-family: arial;
+	font-weight: bold;
+}
+.wecanoffer
+{
+	color: #FF0099;
+	font-size: 3.5em;
+	font-weight: bold;
+}
