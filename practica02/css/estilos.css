@@ -4,6 +4,7 @@ body
 	margin: 0 auto;
 	max-width: 1078px; /*desicion de la empresa*/
 	min-width: 1078px;
+	font-family: arial;
 }
 header input
 {
@@ -35,6 +36,11 @@ header nav
 	margin-top: 20px;
 	margin-left: 25px;
 }
+
+#mailinglist
+{
+	padding-top: 60px;
+}
 #paint
 {
 	float: right;
@@ -59,6 +65,24 @@ header nav
 {
 	width: 30%;
 }
+
+#secc01art02 ul
+{
+	list-style: none;
+}
+#secc01art02 ul li
+{
+	margin-left: -50px;
+}
+
+#secc01art02 ul li:before
+{
+	
+	content: "• ";
+	color: #FF0099;
+	margin-right:3px;
+}
+
 #segundaseccion article
 {
 	text-align: right;
@@ -70,20 +94,28 @@ header nav
 	width: 22%;
 	vertical-align: top;
 }
+
+#terceraseccion article img
+{
+	vertical-align: middle;
+}
+
 .colorazul
 {
-	font-size: 1.5em;
 	color: #3E9ED6;
 }
 .colorrosa
 {
-	font-size: 1.5em;
 	color: #FF0099;
 }
 .colorverde
 {
-	font-size: 1.5em;
 	color: #A6DE47;
+}
+.colorazul,.colorrosa,.colorverde
+{
+	font-size: 1.4em;
+	font-weight: bold;
 }
 .numerotelefono
 {
@@ -98,4 +130,25 @@ header nav
 	color: #FF0099;
 	font-size: 3.5em;
 	font-weight: bold;
+}
+
+#terceraseccion article input
+{
+	padding: 5px 0px;
+	border-radius: 5px;
+}
+
+#terceraseccion article input[type=button]
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #A6DE47;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+}
+
+#terceraseccion article input[type=text]
+{
+	border: 1px solid rgba(0,0,0,0.5);
 }

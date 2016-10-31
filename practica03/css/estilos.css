@@ -1,15 +1,9 @@
 body
 {
-	border: 1px solid blue;
 	margin: 0 auto;
 	max-width: 1024px;
+	font-family: arial;
 }
-
-header
-{
-	border: 1px solid red;
-}
-
 
 header span
 {
@@ -42,6 +36,13 @@ header nav ul li
 	margin-left: '1'
 }
 
+section
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+}
+
 .red
 {
 	float:right;
@@ -54,4 +55,126 @@ header nav ul li
 #logo
 {
 	text-align: left;
+}
+
+#primeraseccion
+{
+	width: 60%;
+}
+
+#primeraseccion img
+{
+	width: 99%;
+}
+
+#segundaseccion
+{
+	width: 33%;
+}
+
+#primeraseccion article
+{
+	display: inline-block;
+}
+
+#segundaseccion span
+{
+	padding: 5px 40%;
+	color: white;
+	background: #F6661D;
+	border-radius: 10px;
+}
+
+#buscador
+{
+	text-align: center;
+}
+
+#buscador form
+{
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	width: 190px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 20%;
+	padding: 3px;
+}
+
+#buscador form input[type="search"]
+{
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+#buscador form input[type="button"]
+{
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,.7);
+	color: white;
+	background: rgb(220,220,220);
+}
+
+#segundaseccion article
+{
+	background: rgba(240, 240, 240, 0.5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -5px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+
+hr
+{
+	border-style: dotted;
+	margin-right: 30px;
+}
+
+#segsecpriart
+{
+	width: 23%;
+}
+
+#segsecpriart img
+{
+	border: 6px solid rgb(200,200,200);
+}
+
+#segsecsegart
+{
+	margin-left: 20px;
+	width: 65%;
+	font-family: arial;
+	font-size: .8em;
+}
+
+#segsecsegart article
+{
+	background: rgb(230,230,230);
+	width: 99%;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-family: arial;
+	font-size: .6em;
+	padding: 5px 0px 5px 10px;
+	margin-bottom: 10px;
+}
+
+#segsecsegart article span
+{
+	color: gray;
+	font-style: italic;
+}
+
+#segsecsegart input
+{
+	background: rgb(220,220,220);
+	padding: 7px 5px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	border:0px;
 }
