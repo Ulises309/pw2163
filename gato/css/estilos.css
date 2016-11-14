@@ -1,0 +1,47 @@
+body
+{
+	margin: 30px auto;
+	font-family: arial;
+	width: 1024px;
+	text-align: center;
+}
+
+header span
+{
+	text-align: center;
+	font-size: 2em;
+	color: red;
+}
+
+table
+{
+	border:0px;
+}
+
+table tr td
+{
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+}
+
+span
+{
+	font-size: 3em;
+	color: blue;
+}
+
+.casilla
+{
+	font: 2em;
+	vertical-align: center;
+	width: 98%;
+	height: 98%;
+	background: transparent;
+	border: none;
+}
+
+.casilla:hover
+{
+	background: gray;
+}
