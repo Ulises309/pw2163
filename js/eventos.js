@@ -4,7 +4,15 @@ var inicio = function()
 {
 	var dameclick = function()
 	{
-		alert("le di click");
+	    	$.ajax({
+ 			url: 'https://randomuser.me/api/',
+ 			dataType: 'json',
+	  		success: function(data) {
+	    				$("#txtNombre").val(data.results[0].name.first+" "+data.results[0].name.last);
+	    				$("#imgFoto").attr("src",data.results[0].picture.large);
+	  		}
+		});
+      
 	}
 	$("#dameClick").on("click",dameclick);
 }
