@@ -10,6 +10,9 @@ var inicio = function()
 	  		success: function(data) {
 	    				$("#txtNombre").val(data.results[0].name.first+" "+data.results[0].name.last);
 	    				$("#imgFoto").attr("src",data.results[0].picture.large);
+	    				$("#miArticle").html("Texto");
+	    				$("#txtNombre").show("slow");
+	    				$("#imgFoto").show("slow");
 	  		}
 		});
       
